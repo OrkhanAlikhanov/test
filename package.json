@@ -1,15 +1,16 @@
 {
   "name": "test",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "scripts": {
     "install": "echo Install",
-    "postinstall": "opencollective-postinstall"
+    "postinstall": "opencollective || exit 0"
   },
   "main": "index.js",
   "dependencies": {
-    "opencollective-postinstall": "^2.0.3"
+    "@nuxt/opencollective": "^0.3.3"
   },
   "collective": {
-    "url": "https://opencollective.com/webpack"
+    "url": "https://opencollective.com/nuxtjs",
+    "logoUrl": "https://opencollective.com/nuxtjs/logo.txt?reverse=true&variant=variant2"
   }
 }
