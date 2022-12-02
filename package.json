@@ -1,0 +1,15 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "scripts": {
+    "install": "echo Install",
+    "postinstall": "opencollective-postinstall"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "opencollective-postinstall": "^2.0.3"
+  },
+  "collective": {
+    "url": "https://opencollective.com/webpack"
+  }
+}
